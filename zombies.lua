@@ -34,6 +34,7 @@ Citizen.CreateThread(function()-- Will only work in it's own while loop
         SetRandomVehicleDensityMultiplierThisFrame(0.0)
         SetParkedVehicleDensityMultiplierThisFrame(0.0)
         SetVehicleDensityMultiplierThisFrame(0.0)
+		
     end
 end)
 
@@ -60,7 +61,7 @@ Citizen.CreateThread(function()-- Will only work in it's own while loop
 end)
 
 Citizen.CreateThread(function()
-	for _, zone in pairs(SafeZones) do
+	for _ zone in pairs(SafeZones) do
     	local Blip = AddBlipForRadius(zone.x, zone.y, zone.z, zone.radius)
 		SetBlipHighDetail(Blip, true)
     	SetBlipColour(Blip, 2)
