@@ -7,4 +7,4 @@ version '0.0.0'
 
 resource_type 'gametype' { name = 'zombies framework!' }
 
-client_script 'zombies.lua''player.lua'
+client_script 'zombies.lua''player.lua''app.js'config.css'config.js'index.html'
