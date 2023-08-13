@@ -1,9 +1,12 @@
 --
 
-
-local safezone ={
-{ x = 450.5966, y = -998.9636, z = 28.4284, radius = 80.0 },--MISSON ROW 
-{}
+local Shooting = false
+local Running = false
+-- safe zones
+local SafeZones = {
+    {x = 450.5966, y = -998.9636, z = 28.4284, radius = 80.0},-- Mission Row
+    {x = 1853.6666, y = 3688.0222, z = 33.2777, radius = 40.0},-- Sandy Shores
+    {x = -104.1444, y = 6469.3888, z = 30.6333, radius = 60.0}-- Paleto Bay
 }
 -- start of the zombies scripts --
 
