@@ -27,7 +27,7 @@ body {
     width: 98%;
     background-color: var(--loadbar-color);
     height: var(--loadbar-height);
-    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 8px 10px 0px rgba(255, 255, 255, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
     margin-left: 2px;
     margin-right: 3px;
 
@@ -55,7 +55,7 @@ body {
 #container {
     text-shadow: 2px 2px 5px #424242;
     position: absolute;
-    color: rgb(241, 235, 235);
+    color: rgb(47, 0, 255);
     top: 47%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -78,6 +78,17 @@ body {
     text-align: center;
     padding-bottom: 29px;
 }
+#Music {
+    color: rgb(47, 0, 255);
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    font-size: var(--footer-font-size);
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
 
 #bottom_nav {
     width: 90%;
