@@ -14,7 +14,7 @@ p
 DecorRegister('RegisterZombie', 2)
 
 AddRelationshipGroup('ZOMBIE')
-addRelationshipGroup('bodyguard')
+addRelationshipGroup('BODYGUARD')
 setRelationshipBetweenGroups(0, GethashKey ('BODYGUARD'), GethashKey ('PLAYER')
 setRelationshipBetweenGroup (0, GethashKey ('PLAYER'), GethashKey ('BODYGUARD')
 SetRelationshipBetweenGroups(0, GetHashKey('ZOMBIE'), GetHashKey('PLAYER'))
