@@ -10,10 +10,13 @@ local SafeZones = {
 }
 -- start of the zombies scripts --
 
-
+p
 DecorRegister('RegisterZombie', 2)
 
 AddRelationshipGroup('ZOMBIE')
+addRelationshipGroup('bodyguard')
+setRelationshipBetweenGroups(0, GethashKey ('BODYGUARD'), GethashKey ('PLAYER')
+setRelationshipBetweenGroup (0, GethashKey ('PLAYER'), GethashKey ('BODYGUARD')
 SetRelationshipBetweenGroups(0, GetHashKey('ZOMBIE'), GetHashKey('PLAYER'))
 SetRelationshipBetweenGroups(5, GetHashKey('PLAYER'), GetHashKey('ZOMBIE'))
 
